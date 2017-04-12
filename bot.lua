@@ -2,21 +2,21 @@
 fa = {
 ['fa'] = 'زبان فارسی انتخاب شد',
 ['fail'] = 'داری اشتباه میزنی داداچ :|',
-['channel'] = 'کانال ما',
+['channel'] = 'ایدی',
 ['reply'] = 'لطفا ریپلی کنید',
 edit = {'ادیت نکن بچه دیدم چی گفتی\n','حالا دور از چشم من ادیت می کنی\nاینم متن ادیت شدت','وای دارم چی میبینم \nادیت نکن دیگه بچه','من این همه مچ گیریمحاله محاله\nمتن قبلیت'},
 },
 en = {
 ['en'] = 'bot language seted',
 ['fail'] = 'input fail',
-['channel'] = 'My channel',
+['channel'] = 'ID',
 ['reply'] = 'Please Reply Someone',
 edit = {'dont edit pleas\nyour last msg :','it`s your last msg :','please stop editng your last msg','edit is false'},
 },
 }
 function ch(ip)
 local keychannel ={}
-keychannel.inline_keyboard = {{{text = lang[ip]['channel'],url = 'https://telegram.me/NeroTeam'},}}
+keychannel.inline_keyboard = {{{text = lang[ip]['ID'],url = 'https://telegram.me/morteza4718'},}}
 return keychannel
 end
  local function edited(ed)
