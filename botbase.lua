@@ -7,8 +7,8 @@ serpent = require('serpent')
 ltn12 = require ('ltn12')
 json = (loadfile "./libs/JSON.lua")()
 version = 'v_1.0'
-api_token = 'token' -- set token
-admin = id --admin
+api_token = '253303511:AAEG1OmT8tumrUbNGSs7vY5q6J-dsJUKltU' -- set token
+admin = 191128096 --admin
 
 
 function bot_init(on_reload) 
