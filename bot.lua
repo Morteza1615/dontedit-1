@@ -16,7 +16,7 @@ edit = {'dont edit pleas\nyour last msg :','it`s your last msg :','please stop e
 }
 function ch(ip)
 local keychannel ={}
-keychannel.inline_keyboard = {{{text = lang[ip]['ID'],url = 'https://telegram.me/morteza4718'},}}
+keychannel.inline_keyboard = {{{text = lang[ip]['ID'],url = 'https://telegram.me/Contributive'},}}
 return keychannel
 end
  local function edited(ed)
